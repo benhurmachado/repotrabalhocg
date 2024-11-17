@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['arbitro', 'football', 'goleiro', 'jogador']
+
+roboflow:
+  workspace: futebol-wg8ki
+  project: pessoas-futebol
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/futebol-wg8ki/pessoas-futebol/dataset/1
